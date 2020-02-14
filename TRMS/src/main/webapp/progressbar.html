@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+	<title>Progress Bar</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="resources/custom_css/custom.css">
+	<script type="text/javascript" src="resources/javascript/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="resources/javascript/custom.js"></script>
+</head>
+
+<body>
+
+	<div class="container col-7" id="progress_bar">
+		<h1 id="approval_header">Approval Progress</h1>
+		<div class="progress">
+			<div class="progress-bar-striped bg-success progress-bar-animated" id="supervisorBox" role="progressbar" style="width:20%">
+				Supervisor<br>
+				approved!
+			</div>
+			<div class="progress-bar-striped bg-success progress-bar-animated" id="headBox"role="progressbar" style="width:20%">
+				Department Head<br>
+				approved!
+			</div>
+			<div class="progress-bar-striped bg-info" role="progressbar" id="bencoBox" style="width:20%">
+				BenCo<br>
+				pending approval
+			</div>
+			<div class="progress-bar-striped bg-info" role="progressbar" id="gradeBox" style="width:20%">
+				Grade<br>
+				pending approval
+			</div>
+			<div class="progress-bar-striped bg-info" role="progressbar" id="awardBox" style="width:20%">
+				Reimbursement<br>
+				award pending
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
